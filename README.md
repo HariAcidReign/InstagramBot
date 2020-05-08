@@ -1,5 +1,5 @@
 # InstagramBot
-A simple python Instagram bot that traverses your Followers and Following lists, and shows you the list of people who aren't following you back
+A simple python Instagram bot that traverses your Followers and Following lists, and shows you the list of people who aren't following you back, and people who you aren't following back (Sneaky, i know)
 
 <img src = "https://image.flaticon.com/icons/png/512/87/87390.png" width="100" height="100">
 
