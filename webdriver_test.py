@@ -37,7 +37,10 @@ class InstaBot:
         followers = self._get_names()
 	# We find the users in following but not in the followers list and catch those *******
         not_following_back = [user for user in following if user not in followers]
-        print(not_following_back)
+        u_arent_following  = [user for user in followers if user not in following]
+        print("People who aren't following you back - ",not_following_back)
+        print()
+        print("People you aren't following back - ", u_arent_following)
 
     def _get_names(self):
         sleep(5)
